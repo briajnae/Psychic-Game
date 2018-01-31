@@ -30,7 +30,7 @@ document.onkeypress = function (event) {
         computerGuess = Math.floor(Math.random() * randomLetter.length);
         answer = randomLetter[computerGuess];
         console.log(answer);
-        document.getElementById("body").style.backgroundImage = "url( 'assets/images/mystletter.jpg')";
+        document.getElementById("body").style.backgroundImage = "url( 'Assets/Images/mystletter.jpg')";
     }
 
     else if (guessesLeft === 0) {
@@ -43,7 +43,7 @@ document.onkeypress = function (event) {
         computerGuess = Math.floor(Math.random() * randomLetter.length);
         answer = randomLetter[computerGuess];
         console.log(answer);
-        document.getElementById("body").style.backgroundImage = "url( 'assets/images/brokenmystletter.jpg')";
+        document.getElementById("body").style.backgroundImage = "url( 'Assets/Images/brokenmystletter.jpg')";
     }
 
     else (guessedLetters.indexOf(userGuess) < 0 && randomLetter.indexOf(userGuess) >= 0); {
