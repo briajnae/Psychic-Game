@@ -1,0 +1,51 @@
+ body {
+    background: url('../images/mystletter.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+ul {
+    list-style-type: none;
+    
+}
+.header {
+   margin-top: 150px;
+  position: relative;
+}
+h1 {
+    font-family: "Nothing You Could Do" , cursive;
+    color: white;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #111;
+    text-align: center;
+}
+
+.game-row {
+    padding: 100px 150px;
+}
+
+#wins {
+    font-family:'Permanent Marker', cursive;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #111;
+}
+#losses {
+    font-family:'Permanent Marker', cursive;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #111;
+}
+#guessLeft {
+    font-family:'Permanent Marker', cursive;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #111;
+}
+#user-guess {
+    font-family:'Permanent Marker', cursive;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #111;
+}
